@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .buttons a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .buttons a:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <p>Aspiring Developer | Content Creator</p>
+        <p>Welcome to my portfolio! Here you can see my projects and contact me.</p>
+        <div class="buttons">
+            <a href="#">My Work</a>
+            <a href="#">Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>
